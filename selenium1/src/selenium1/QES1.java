@@ -18,9 +18,9 @@ public class QES1 {
 	// driver.findElement(By.xpath("//input[@id='search_city']")).sendKeys("Mumbai");
 	driver.findElement(By.xpath("//a[@data-city='Mumbai']")).click();
 
-	driver.findElement(By.xpath("//input[@id='home-search']")).sendKeys("pizza hut");
-	Thread.sleep(1000);
-	driver.findElement(By.id("apxor_search")).click();
+	//driver.findElement(By.xpath("//input[@id='home-search']")).sendKeys("pizza");
+	//Thread.sleep(1000);
+	//driver.findElement(By.id("apxor_search")).click();
 
 
 
@@ -31,5 +31,3 @@ public class QES1 {
 
 
 	}
-
-}
