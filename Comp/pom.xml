@@ -4,10 +4,12 @@
   <artifactId>Comp</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  <properties>
+ <properties>
 <maven.compiler.source>1.8</maven.compiler.source>
 <maven.compiler.target>1.8</maven.compiler.target>
 </properties>
+
+
 
 <dependencies>
 <dependency>
@@ -15,7 +17,19 @@
 <artifactId>selenium-java</artifactId>
 <version>3.141.59</version>
 </dependency>
+
+
+
+
+
+<dependency>
+<groupId>org.testng</groupId>
+<artifactId>testng</artifactId>
+<version>6.10</version>
+<scope>test</scope>
+</dependency>
 </dependencies>
+
 
 </project>
 
